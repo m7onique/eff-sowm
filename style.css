@@ -172,68 +172,46 @@ float: left;
       font-family: 'Sansita Swashed', cursive;
       background-image: linear-gradient(rgba(290,265,299,0.4), rgba(255, 255, 250, 0.411)), url(photos/rose.JPG);
       background-color: #2e03272a; /* Used if the image is unavailable */
-      height: 1000px; /* You must set a specified height */
-      background-size: cover;    
+      height: 1200px; /* You must set a specified height */
+      background-size: cover;  
+      display: inline-block;  
+  }
+  .linkedicon {
+position: relative;
+ float: right;
+ padding: 5%;
+
   }
   .contactpic {
     padding: 3%;
   }
-  .contactme {
-    padding-top: 15%;
-    height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    align-items: left;
-   justify-content: baseline;
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
- 
-  .contactme, form {
-    width: 90%;
-    max-width: 600px;
+  
+ .contactme {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
   }
-
-  .input-group {
-    margin-bottom: 30px;
-    position: relative;
-
+  
+ .contactme{
+    background-color:  #4E1A3D;
   }
-  .input, textarea {
-    width: 100%;
+  
+  /* Add a background color and some padding around the form */
+  .contactmainsection {
+    border-radius: 5px;
+    background-color: #f2f2f2;
     padding: 10px;
-    outline: 0;
-    border: solid rgb(20, 20, 20) 1px;
-    
-    background: transparent;
-    font-size: 15px;
-  }
-  .input, label {
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 10px;
-    color: #292727;
-    cursor: text;
-    transition: 0.2s;
-  }
-  .input-group, button {
-    padding: 10px;
-    color: #292727;
-    outline: none;
-    background: transparent;
-    border: solid #292727 1px;
-    width: 100%;
-  }
-  input:focus~label {
-    top: -35px;
-    font-size: 14px;
-  }
-  .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .row .input-group {
-    flex-basis: 48%;
-
   }

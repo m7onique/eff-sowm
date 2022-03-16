@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- We are importing icons here -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
 <head>
 
@@ -31,29 +33,39 @@
 
     <div class="contactmainsection">
         <img class="contactpic" src="photos/monique jacket.jpeg" height="400" weight="400" alt="monique">
+        <div class="linkedicon">
+            <a href="https://www.linkedin.com/in/monique-rodriguez-24367422a/">
+
+                <i class="fab fa-linkedin fa-3x square"></i>
+            </a>
+        </div>
+
+
+        <p>
+            I'm available to speak at your church or women's event, please email with
+            date of request.
+        </p>
         <div class="contactme">
-            <form>
-                <div class="row">
-                    <div class="input-group">
-                        <input type="text" id=name required>
-                        <label for="name">Name</label>
-                    </div>
-                    <div class="input-group">
-                        <input type="text" id=number required>
-                        <label for="number">Phone number</label>
-                    </div>
+            <form action="action_page.php">
 
-                </div>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-                <div class="input-group">
-                    <input type="email" id=email required>
-                    <label for="email">Email</label>
-                </div>
-                <div class="input-group">
-                    <textarea id="message" rows="8"></textarea>
-                    <label for="message">Message</label>
-                </div>
-                <button type="submit">SUBMIT</button>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
             </form>
         </div>
 
