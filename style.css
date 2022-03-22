@@ -102,15 +102,20 @@ float: left;
   
 }
 .aboutcolumn-container {
-  grid-column: 50%;
-  grid-row: 50%;
+ display: flex;
+ grid-column: 1/3;
   padding: 0px 10%;
   border-top: 50px solid #4E1A3D
+ 
 }
 .aboutcolumns {
-  display: flex;
-  padding: 1%;
-  column-gap: 5%; 
+  
+  flex: 33.33%;
+  height: 200px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+ 
   
   }
   .aboutcolumncontent {
@@ -141,6 +146,7 @@ float: left;
   .aboutopen {
     font-size: 18pt;
     font-style: italic;
+    padding: 1%;
   }
 
 
@@ -165,6 +171,9 @@ float: left;
   .resourcesmainsection, h1 {
     font-size: 25pt;
     background-color: #585884;
+  }
+  .booklist {
+    padding: 1%;
   }
 
   .contactmainsection {
