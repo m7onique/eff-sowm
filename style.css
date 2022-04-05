@@ -52,7 +52,7 @@ background-size: cover;
   color: #cccccc;
 }
 .columncontent, a {
-  color: #4E1A3D;
+  
   
 }
 .mompic {
@@ -163,7 +163,7 @@ padding-bottom: 0%;
   .resourcesmainsection {
      background-image: linear-gradient(rgba(290,265,299,0.4), rgba(255, 255, 250, 0.603)), url(photos/22D2BC4D-1AD3-4827-A545-29653DBD91B8_1_105_c.jpeg);
       background-color: #cccccc48; /* Used if the image is unavailable */
-      height: 1300px; /* You must set a specified height */
+      height: 1700px; /* You must set a specified height */
       background-size: cover; 
   }
   .resourceslinks {
@@ -186,7 +186,16 @@ padding-bottom: 0%;
     font-size: 25pt;
     color: white;
     background-color: rgb(54, 53, 53);
+  }
+  .acktext {
+    font-size: 14pt;
+    color: #4E1A3D;
+    padding-left: 1%;
     
+  }
+  .acktext, h4 {
+    font-size: 16pt; 
+    font: bold;
     
   }
   .booklist {
