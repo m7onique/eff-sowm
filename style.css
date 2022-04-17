@@ -245,6 +245,11 @@ h1 {
 
 }
 
+.ackpersons {
+  display: flex;
+  column-gap: 1%;
+}
+
 .booklist {
   padding: 1%;
   width: 50px;
@@ -335,8 +340,6 @@ h3 {
     /* justify-content: center; */
     padding-left: 0%;
     position: static;
-
-
   }
 
   .navlinks {
@@ -363,14 +366,12 @@ h3 {
   }
 
   .mainsection h4 {
-
     font-size: 14pt;
     max-width: 130px;
   }
 
   .devotionalcolumns {
     flex-direction: column;
-
   }
 
   .columncontent {
@@ -388,19 +389,15 @@ h3 {
     font-size: 15pt;
   }
 
-
   .aboutmepic {
-
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 0%;
-
   }
 
   .aboutcover {
     display: flex;
     flex-direction: column;
-
   }
 
   .aboutcolumns {
@@ -434,4 +431,10 @@ h3 {
   .aboutopen {
     font-size: 12pt;
   }
+
+  .ackpersons {
+    flex-direction: column;
+  }
+
+
 }
