@@ -439,5 +439,11 @@ h3 {
     flex-direction: column;
   }
 
+  .resourceslinks a {
+    color: #4E1A3D;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 14pt;
+    font-style: italic;
+  }
 
 }
