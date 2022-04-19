@@ -87,8 +87,10 @@ body {
   background-color: #4E1A3D;
   position: relative;
 
+}
 
-
+.columncontent a {
+  color: aqua;
 }
 
 .header-flex {
@@ -230,6 +232,7 @@ h1 {
   font-size: 25pt;
   color: white;
   background-color: rgb(54, 53, 53);
+
 }
 
 .acktext {
