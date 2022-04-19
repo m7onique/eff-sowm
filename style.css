@@ -249,8 +249,8 @@ h1 {
 }
 
 .ackpersons {
-  display: flex;
-  column-gap: 1%;
+  /* display: flex; */
+  /* column-gap: 1%; */
 }
 
 .booklist {
